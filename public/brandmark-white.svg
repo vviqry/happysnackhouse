@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="100" fill="#FFFFFF"/>
+  <g transform="translate(16, 16) scale(0.9375)">
+    
   <!-- House Roof (Brand Red & Dark Chocolate Outline) -->
   <path d="M 256 32 L 32 216 L 80 256 L 256 112 L 432 256 L 480 216 Z" fill="#FF5A5F" stroke="#6B3F1F" stroke-width="16" stroke-linejoin="round"/>
   
@@ -24,4 +27,6 @@
 
   <!-- Cute Smile Arc in Yellow Upper Space -->
   <path d="M 200 264 Q 256 296 312 264" fill="none" stroke="#6B3F1F" stroke-width="16" stroke-linecap="round"/>
+
+  </g>
 </svg>
