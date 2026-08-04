@@ -12,7 +12,7 @@ export default function HeroSection() {
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 pt-3 pb-8 sm:pb-12">
         <div className="flex flex-col items-center text-center">
           {/* Merek / Brand Banner Image */}
-          <div className="animate-fade-in-up mt-[3px] mb-[3px] w-full flex justify-center">
+          <div className="animate-fade-in-up w-full flex justify-center py-0 my-0">
             <Image
               src="/merek.png"
               alt="Happy Snack House — Rumahnya Camilan Manis & Momen Ceria"
@@ -24,7 +24,7 @@ export default function HeroSection() {
           </div>
 
           {/* Subheadline */}
-          <p className="animate-fade-in-up delay-200 text-base sm:text-lg text-chocolate-brown/70 font-medium max-w-xl mb-6 leading-relaxed">
+          <p className="animate-fade-in-up delay-200 text-base sm:text-lg text-chocolate-brown/70 font-medium max-w-xl -mt-2 sm:-mt-4 mb-6 leading-relaxed">
             Happy Snack House menyediakan berbagai camilan berkualitas untuk
             keluarga, warung, reseller, dan sekolah.
           </p>
