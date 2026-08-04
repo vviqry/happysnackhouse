@@ -11,23 +11,17 @@ export default function HeroSection() {
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 section-padding">
         <div className="flex flex-col items-center text-center">
-          {/* Mascot */}
-          <div className="animate-float animate-fade-in-up mb-6">
+          {/* Merek / Brand Banner Image */}
+          <div className="animate-fade-in-up mb-6 w-full flex justify-center">
             <Image
-              src="https://iili.io/CUxDTNV.png"
-              alt="Happy Snack House Mascot"
-              width={160}
-              height={160}
-              className="object-contain drop-shadow-xl w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48"
+              src="/merek.png"
+              alt="Happy Snack House — Rumahnya Camilan Manis & Momen Ceria"
+              width={600}
+              height={300}
+              className="object-contain w-full max-w-xs sm:max-w-md md:max-w-lg h-auto drop-shadow-md"
               priority
             />
           </div>
-
-          {/* Headline */}
-          <h1 className="animate-fade-in-up delay-200 text-3xl sm:text-4xl md:text-5xl font-extrabold text-chocolate-brown leading-tight max-w-2xl mb-4">
-            Rumahnya Camilan Manis
-            <span className="block text-happy-red">&amp; Momen Ceria</span>
-          </h1>
 
           {/* Subheadline */}
           <p className="animate-fade-in-up delay-300 text-base sm:text-lg text-chocolate-brown/70 font-medium max-w-xl mb-8 leading-relaxed">
