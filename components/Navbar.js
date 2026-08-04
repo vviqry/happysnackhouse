@@ -54,7 +54,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               <Image
-                src="https://iili.io/CUxDTNV.png"
+                src="https://iili.io/CUDRpSt.png"
                 alt="Happy Snack House Logo"
                 width={40}
                 height={40}

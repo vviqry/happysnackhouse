@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 mb-4">
             <Image
-              src="https://iili.io/CUxDTNV.png"
+              src="https://iili.io/CUDRpSt.png"
               alt="Happy Snack House"
               width={36}
               height={36}

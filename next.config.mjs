@@ -7,6 +7,11 @@ const nextConfig = {
         hostname: "iili.io",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "freeimage.host",
+        pathname: "/**",
+      },
     ],
   },
 };

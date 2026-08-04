@@ -18,7 +18,7 @@ export const products = [
     name: "Fruity Candy",
     description:
       "Permen buah dengan rasa segar dan manis. Disukai anak-anak dan cocok untuk dijual di warung, sekolah, maupun acara.",
-    image: "https://iili.io/CUxDTNV.png",
+    image: "https://iili.io/CUxsxqJ.png",
     badge: "Produk Pertama",
     available: true,
   },
@@ -71,10 +71,10 @@ export const contactInfo = {
     message: "Halo Happy Snack House! Saya ingin bertanya tentang produk Anda.",
   },
   instagram: {
-    handle: "@happysnackhouse",
-    url: "https://instagram.com/happysnackhouse",
+    handle: "@happy.snack.house",
+    url: "https://www.instagram.com/happy.snack.house",
   },
-  address: "Padang, Sumatera Barat, Indonesia",
+  address: "Payakumbuh & 50 Kota",
   operationalHours: "Senin - Sabtu, 08:00 - 17:00 WIB",
 };
 
