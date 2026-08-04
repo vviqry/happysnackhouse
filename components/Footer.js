@@ -69,7 +69,7 @@ export default function Footer() {
           <div className="w-full max-w-xs h-px bg-white/10 mb-6" />
 
           {/* Copyright */}
-          <p className="text-white/35 text-xs font-medium">
+          <p className="text-white/35 text-xs font-medium" suppressHydrationWarning>
             © {new Date().getFullYear()} Happy Snack House. All rights reserved.
           </p>
         </div>

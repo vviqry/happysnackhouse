@@ -66,8 +66,8 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="id" className={`${nunito.variable} h-full`}>
-      <body className="min-h-full flex flex-col font-[var(--font-nunito)]">
+    <html lang="id" className={`${nunito.variable} h-full`} suppressHydrationWarning>
+      <body className="min-h-full flex flex-col font-[var(--font-nunito)]" suppressHydrationWarning>
         {children}
       </body>
     </html>
