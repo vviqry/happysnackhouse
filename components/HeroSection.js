@@ -9,22 +9,22 @@ export default function HeroSection() {
       <div className="absolute top-10 -left-20 w-64 h-64 bg-happy-yellow/15 rounded-full blur-3xl" />
       <div className="absolute bottom-10 -right-20 w-72 h-72 bg-happy-yellow/10 rounded-full blur-3xl" />
 
-      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 pt-3 pb-8 sm:pb-12">
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 pt-2 pb-6 sm:pb-8">
         <div className="flex flex-col items-center text-center">
-          {/* Merek / Brand Banner Image */}
-          <div className="animate-fade-in-up w-full flex justify-center py-0 my-0">
+          {/* Merek 2 / Brand Banner Image */}
+          <div className="animate-fade-in-up w-full flex justify-center p-0 m-0">
             <Image
-              src="/merek.png"
+              src="/merek2.png"
               alt="Happy Snack House — Rumahnya Camilan Manis & Momen Ceria"
-              width={600}
-              height={300}
-              className="object-contain w-full max-w-xs sm:max-w-md md:max-w-lg h-auto drop-shadow-md"
+              width={550}
+              height={280}
+              className="object-contain w-full max-w-xs sm:max-w-md md:max-w-lg h-auto drop-shadow-md p-0 m-0"
               priority
             />
           </div>
 
           {/* Subheadline */}
-          <p className="animate-fade-in-up delay-200 text-base sm:text-lg text-chocolate-brown/70 font-medium max-w-xl -mt-2 sm:-mt-4 mb-6 leading-relaxed">
+          <p className="animate-fade-in-up delay-200 text-base sm:text-lg text-chocolate-brown/70 font-medium max-w-xl my-4 leading-relaxed">
             Happy Snack House menyediakan berbagai camilan berkualitas untuk
             keluarga, warung, reseller, dan sekolah.
           </p>
