@@ -39,6 +39,11 @@ export const metadata = {
     description:
       "Camilan berkualitas untuk keluarga, warung, reseller, dan sekolah.",
   },
+  icons: {
+    icon: "/permen.png",
+    shortcut: "/permen.png",
+    apple: "/permen.png",
+  },
   robots: {
     index: true,
     follow: true,
