@@ -1,0 +1,62 @@
+import Image from "next/image";
+import Link from "next/link";
+import { links } from "@/data/products";
+
+export default function HeroSection() {
+  return (
+    <section className="relative overflow-hidden bg-gradient-to-b from-happy-yellow-50 via-happy-yellow-light/40 to-white">
+      {/* Decorative circles */}
+      <div className="absolute top-10 -left-20 w-64 h-64 bg-happy-yellow/15 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 -right-20 w-72 h-72 bg-happy-yellow/10 rounded-full blur-3xl" />
+
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 section-padding">
+        <div className="flex flex-col items-center text-center">
+          {/* Mascot */}
+          <div className="animate-float animate-fade-in-up mb-6">
+            <Image
+              src="https://iili.io/CUxDTNV.png"
+              alt="Happy Snack House Mascot"
+              width={160}
+              height={160}
+              className="object-contain drop-shadow-xl w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48"
+              priority
+            />
+          </div>
+
+          {/* Headline */}
+          <h1 className="animate-fade-in-up delay-200 text-3xl sm:text-4xl md:text-5xl font-extrabold text-chocolate-brown leading-tight max-w-2xl mb-4">
+            Rumahnya Camilan Manis
+            <span className="block text-happy-red">&amp; Momen Ceria</span>
+          </h1>
+
+          {/* Subheadline */}
+          <p className="animate-fade-in-up delay-300 text-base sm:text-lg text-chocolate-brown/70 font-medium max-w-xl mb-8 leading-relaxed">
+            Happy Snack House menyediakan berbagai camilan berkualitas untuk
+            keluarga, warung, reseller, dan sekolah.
+          </p>
+
+          {/* CTAs */}
+          <div className="animate-fade-in-up delay-400 flex flex-col sm:flex-row items-center gap-3 sm:gap-4 w-full sm:w-auto">
+            {/* CTA Utama */}
+            <Link
+              href={links.mitra}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-press w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-happy-red hover:bg-happy-red-hover text-white font-bold text-base sm:text-lg rounded-2xl shadow-lg shadow-happy-red/25 hover:shadow-xl hover:shadow-happy-red/30 transition-all duration-200 hover:-translate-y-0.5"
+            >
+              🤝 Jadi Mitra
+            </Link>
+
+            {/* CTA Kedua */}
+            <Link
+              href="/produk"
+              className="btn-press w-full sm:w-auto flex items-center justify-center gap-2 px-8 py-4 bg-white border-2 border-happy-yellow text-chocolate-brown font-bold text-base sm:text-lg rounded-2xl shadow-md hover:shadow-lg hover:bg-happy-yellow-50 transition-all duration-200 hover:-translate-y-0.5"
+            >
+              🍬 Lihat Produk
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
